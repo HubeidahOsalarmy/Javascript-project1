@@ -1,0 +1,34 @@
+.box1{
+    height: 100vh;
+    background-image: url(./background.jpg);
+    color: palevioletred;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./background2.jpg)
+}
+img{
+    height: 100vh;
+    width: 40vw;
+}
+a{
+    font-size: 50px;
+    color: rgb(86, 175, 231);
+    background-color: chartreuse;
+    text-decoration: none;
+    border-style: double;
+    border-radius: 50px;
+    padding: 30px;
+}
+a:hover{
+    color:chartreuse;
+    background-color: rgb(86, 175, 231);
+    
+}
